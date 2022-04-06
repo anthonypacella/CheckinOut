@@ -1,0 +1,33 @@
+<div class="item-card">
+  <p>Title: {{title}}</p>
+  <p>Director: {{director}}</p>
+  {{#if actors}}
+    <p>Actors:</p>
+  {{/if}}
+  <ul style='list-style-type:none'>
+  {{#each actors}}
+    <li>{{this}}</li>
+  {{/each}}
+  </ul>
+  {{#if score}}
+    <span>Music: </span>
+  {{/if}}  
+  {{#each score}}
+    <span>{{this}}  </span>
+  {{/each}}
+  {{#if genre}}
+    <p>{{genre}}</p>
+  {{/if}}
+  <p>{{language}}</p>
+  {{#if subtitles}}
+    <p>Subtitles</p>
+  {{/if}}
+  <p>{{description}}</p>
+  {{#if year}}
+    <span>{{year}}  </span>
+  {{/if}}
+  {{#each production_company}}
+    <span>{{this}}  </span>
+  {{/each}}
+</div>
+

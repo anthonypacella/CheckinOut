@@ -5,7 +5,7 @@ class Book extends Model {}
 
 Book.init(
   {
-    ibsn: {
+    isbn: {
       type: DataTypes.STRING,
       allowNull: false,
       primaryKey: true,
@@ -53,3 +53,4 @@ Book.init(
 );
 
 module.exports = Book;
+

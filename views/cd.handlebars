@@ -1,0 +1,21 @@
+<div class="item-card">
+  <p>Title: {{title}}</p>
+  {{#if genre}}
+  <p>Genre: {{genre}}</p>
+  {{/if}}
+  {{#if artist}}
+  <p>Artist: {{artist}}</p>
+  {{/if}}
+  {{#if tracks}}
+    <p>Tracks:</p>
+  {{/if}}
+  <ol>
+  {{#each tracks}}
+    <li>{{this}}</li>
+  {{/each}}
+  </ol>
+  <p>{{description}}</p>
+  <span>{{year  }}</span>
+  <span>{{publisher}}</span>
+</div>
+

@@ -1,0 +1,22 @@
+<div class="item-card">
+  <p>Title: {{title}}</p>
+  <p>IBSN: {{ibsn}}</p>
+  {{#if author}}
+    <p>Author: {{author}}</p>
+  {{/if}}
+  {{#if year_published}}
+    <p>Year: {{year_published}}</p>
+  {{/if}}
+  {{#if publisher}}
+    <p>Publisher: {{publisher}}</p>
+  {{/if}}
+  {{#if price}}
+    <p>Price: {{price}}</p>
+  {{/if}}
+  {{#if subject}}
+    <p>Classification: {{subject}}</p>
+  {{/if}}
+  {{#if description}}
+    <p>Description: {{description}}</p>
+  {{/if}}
+</div>

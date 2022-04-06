@@ -1,0 +1,18 @@
+<div class="item-card">
+  <div>
+    <p>Patron: </p>
+    <span>{{first_name}} </span>
+    {{#if middle_initial}}
+      <span>{{middle_initial}}. </span>
+    {{/if}} 
+    <span>{{last_name}}</span>
+    <p>Address:</p>
+    <p>{{address_1}}</p>
+    {{#if address_2}}
+        <p>{{address_2}}</p>
+    {{/if}}  
+    <p>{{city}}, {{state}} {{zip}}</p>
+  </div>
+
+</div>
+

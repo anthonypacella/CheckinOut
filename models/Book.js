@@ -36,13 +36,13 @@ Book.init(
       allowNull: true,
     },
     description: {
-      type: DataTypes.true,
+      type: DataTypes.STRING,
       allowNull: true,
     },
-    key_words: {
-      type: Data.ARRAY(DataTypes.STRING),
-      allowNull: true,
-    }
+    // key_words: {
+    //   type: DataTypes.ARRAY(DataTypes.STRING),
+    //   allowNull: true,
+    // }
   },
   {
     sequelize,

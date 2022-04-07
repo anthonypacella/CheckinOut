@@ -11,13 +11,13 @@ router.get('/', async (req, res) => {
   }
 });
 
-//Get a book by ibsn code
+//Get a book by isbn code
 router.get('/:isbn', async (req, res) => {
   try {
     const bookData = await Book.findByPk(req.params.isbn);
 
     if (!bookData) {
-      res.status(404).json({ message: 'No book found.' });
+      res.status(400).json({ message: 'No book found.' });
       return;
     }
 

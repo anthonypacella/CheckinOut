@@ -2,12 +2,32 @@
     {
       "isbn": "0747532699",
       "title": "Harry Potter and the Philosopher's Stone",
-      "author": "password12345",
-      "year_published": "1997",
+      "author": "J. K. Rowling",
+      "year_published": 1997,
       "edition": "1",
-      "price": "$6.99",
+      "price": 6.99,
       "subject": "Fantasy",
-      "key_words": "magic"
+      "description": "good"
+    },
+    {
+        "isbn": "0747538492",
+        "title": "Harry Potter and the Chamber of Secrets",
+        "author": "J. K. Rowling",
+        "year_published": 1998,
+        "edition": "1",
+        "price": 6.99,
+        "subject": "Fantasy",
+        "description": "good"
+    },
+    {
+        "isbn": "0747542155",
+        "title": "Harry Potter and the Prisoner of Azkaban",
+        "author": "J. K. Rowling",
+        "year_published": 1999,
+        "edition": "1",
+        "price": 6.99,
+        "subject": "Fantasy",
+        "description": "good"
     }
 ]
   

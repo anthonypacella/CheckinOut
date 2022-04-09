@@ -1,12 +1,16 @@
 const router = require('express').Router();
-const { Book } = require('../../models/Book');
+const { Book } = require('../../models');
 
 //Get all books
 router.get('/', async (req, res) => {
+  const bookData = await Book.findAll();
+  console.log(bookData);
   try {
     const bookData = await Book.findAll();
+    console.log(bookData);
     res.status(200).json(bookData);
   } catch (err) {
+    console.log("books")
     res.status(500).json(err);
   }
 });
@@ -23,6 +27,7 @@ router.get('/:isbn', async (req, res) => {
 
     res.status(200).json(bookData);
   } catch (err) {
+    console.log("ISBN");
     res.status(500).json(err);
   }
 });
@@ -38,6 +43,7 @@ router.get('/:author', async (req, res) => {
   
       res.status(200).json(bookData);
     } catch (err) {
+      console.log("Author");
       res.status(500).json(err);
     }
   });

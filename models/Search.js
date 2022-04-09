@@ -11,7 +11,7 @@ Search.init(
         primaryKey: true,
         autoIncrement: true,
     },
-    query: {  
+    isbn: {  
         type: DataTypes.STRING,
         allowNull: false,
     },

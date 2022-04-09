@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Search } = require('../../models');
+const { Search, Book } = require('../../models');
 
 //post a search
 router.post('/', async (req, res) => {
@@ -7,10 +7,10 @@ router.post('/', async (req, res) => {
     const newSearch = await Search.create({
       ...req.body
     });
-
-    res.status(200).json(newSearch);
+    const isbn = req.body.isbn;
+    res.status(200).json(newSearch).redirect(`../books/${isbn}`);
   } catch (err) {
-    res.status(400).json(err);
+    res.status(500).json(err);
   }
 });
 

@@ -13,8 +13,8 @@ const searchFormHandler = async (event) => {
       });
   
       if (response.ok) {
-        // If successful, redirect the browser to the profile page
-        document.location.replace(`/api/books/${isbn}`);
+        // If successful, redirect the browser to the isbn page
+        window.location.replace(`/api/books/${isbn}`);
       } else {
         alert(response.statusText);
       }

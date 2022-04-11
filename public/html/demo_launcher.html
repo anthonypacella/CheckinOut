@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Search Results Demo Launcher</title>
+        <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+
+        <style>
+        button
+        {
+            height: 60px;
+            width: 100px;
+            text-align: center;
+            color: #ffffff;
+            background-color: blue;
+            font-size: 12px;
+            margin-top: 200px;
+            margin-left: 300px;
+
+        }
+        </style>
+
+
+        <script >
+
+            const json_obj  = 
+            [
+                {
+                    "author": "J. K. Rowling",
+                    "subject": "Fantasy",
+                },
+                {    
+                    "isbn": "0747532699",
+                    "title": "Harry Potter and the Philosopher's Stone",
+                    "author": "J. K. Rowling",
+                    "year_published": 1997,
+                    "edition": "1",
+                    "price": 6.99,
+                    "subject": "Fantasy",
+                    "description": "good"
+                },
+                {
+                    "isbn": "0747538492",
+                    "title": "Harry Potter and the Chamber of Secrets",
+                    "author": "J. K. Rowling",
+                    "year_published": 1998,
+                    "edition": 1,
+                    "price": 6.99,
+                    "subject": "Fantasy",
+                    "description": "good"
+                },
+                {
+                    "isbn": "0747542155",
+                    "title": "Harry Potter and the Prisoner of Azkaban",
+                    "author": "J. K. Rowling",
+                    "year_published": 1999,
+                    "edition": "1",
+                    "price": 6.99,
+                    "subject": "Fantasy",
+                    "description": "good"
+                }
+            ]
+    
+            $(document).ready(function(){
+                $("button").click(function(){
+                    localStorage.setItem('json_obj', JSON.stringify(json_obj));
+                    location.href = "./search_results_demo.html";  
+                });
+            });
+
+        </script>
+    </head>
+<body>
+    <div><button>Launch Search Results Demo</button></div>
+</body>
+</html>

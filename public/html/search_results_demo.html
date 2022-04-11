@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Results Table</title>
+    <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            text-align: left;
+            padding: 5px;
+        }
+        th {
+            background-color: blue;
+            color: white;
+            font-style: bold;
+        }
+    </style>
+    <script >
+        // Displays a JSON array of flat JSON objects. The first [0] is expected to be the search criteria,
+        // and there is at least on search return. 
+
+        // Get the JSON object from localStorage.
+        var json_obj = JSON.parse(localStorage.getItem('json_obj'));  
+            
+        // User friendly from snake_case.
+        const toCapitalizedCase = (input_string) => {
+            let output_string = '';
+            const string_array = input_string.split("_");
+            for(let j = 0; j < string_array.length; j++){
+                const interim = (string_array[j].charAt(0)).toUpperCase() + string_array[j].slice(1).toLocaleLowerCase();
+                output_string += interim + ' ';
+            }
+            return output_string;
+        }
+
+        //Create table and insert data from the JSON Object.
+        $(document).ready(function(){
+            const interim = json_obj[0];
+
+            // First element is the search criteria.
+            const criteria_key_array = Object.keys(json_obj[0]);
+            criteria_string = "Search results for: ";
+            for(let i = 0; i < criteria_key_array.length; i++){
+                    criteria_string += `${toCapitalizedCase(criteria_key_array[i])} = ${json_obj[0][criteria_key_array[i]]}, `;    
+            }
+            document.getElementById("criteria").innerHTML = criteria_string;
+            
+            // As a given, keys for all elements are the same and there is a least 1 element.
+            const table_key_array = Object.keys(json_obj[1]);
+            let border_string = '<table border=1><thead>';
+            for(let i = 0; i < table_key_array.length; i++){
+                border_string += '</th><th>' + toCapitalizedCase(table_key_array[i]);
+            }
+            border_string += '</thead><tbody>';
+            
+            let table_body = border_string;
+            for(let i =1;i<json_obj.length; i++){
+                table_body+='<tr>';
+                for(let j = 0; j < table_key_array.length; j++){ 
+                    table_body +='<td>';
+                    table_body +=json_obj[i][table_key_array[j]];
+                }   table_body+='</tr>';
+            }
+
+            table_body+='</tbody></table>';
+
+               $('#searchResultsTable').html(table_body);
+        });
+        
+        
+</script>
+</head>
+<body>
+    <div>
+        <div>
+            <p id = "criteria"></p>
+        </div>
+        <div id="searchResultsTable"></div>
+    </div>
+</body>
+</html>

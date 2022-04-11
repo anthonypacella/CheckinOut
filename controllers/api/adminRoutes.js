@@ -1,9 +1,9 @@
 const router = require('express').Router();
 const { Administrator } = require('../../models/Administrator');
 const { Book } = require('../../models/Book');
-const { Branch } = require('../../model/Branch');
-const { CD } = require('../../models/CD');
-const { Movie } = require('../../models/Movie');
+// const { Branch } = require('../../models/Branch');
+// const { CD } = require('../../models/CD');
+// const { Movie } = require('../../models/Movie');
 const { Patron } = require('../../models/Patron');
 
 router.post('/add/administrator', async (req, res) => {

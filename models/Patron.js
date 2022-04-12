@@ -47,9 +47,6 @@ Patron.init(
         type: DataTypes.STRING,
         allowNull: false,
     },
-    standing: {
-      type: DataTypes.BOOLEAN,
-    },
   },
   {
     sequelize,

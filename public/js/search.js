@@ -3,7 +3,7 @@ const searchFormHandler = async (event) => {
   
     // Collect values from the form
     const isbn = document.querySelector('#isbn').value.trim();
-  
+    console.log(`input isbn is ${isbn}`);
     if (isbn) {
       // Send a POST request to the API endpoint
       const response = await fetch('/api/search', {
@@ -14,7 +14,7 @@ const searchFormHandler = async (event) => {
   
       if (response.ok) {
         // If successful, redirect the browser to the isbn page
-        window.location.replace(`/api/books/${isbn}`);
+        window.location.href = `/api/books/${isbn}`;
       } else {
         alert(response.statusText);
       }

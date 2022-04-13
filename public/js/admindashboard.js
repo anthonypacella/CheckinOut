@@ -7,11 +7,13 @@ const addBookEl = document.querySelector('#addBookbtn');
 const addAdministrator = async (event) => {
     event.preventDefault();
 
-    const adminUsername = $('#adminUsername').val();
+    const name = $('#adminName').val();
+    const email = $('#adminEmail').val();
+    const password = $('#adminPassword').val();
 
-    const response = await fetch('/api/add/administrator', {
+    const response = await fetch('/api/admin/add/administrator', {
         method: 'POST',
-        body: JSON.stringify({adminUsername}),
+        body: JSON.stringify({email, name, password}),
         headers: {'Content-Type': 'application/json'},
     });
 
@@ -23,19 +25,19 @@ const addAdministrator = async (event) => {
 const addPatron = async (event) => {
     event.preventDefault();
 
-    const patronUsername = $('#patronUsername').val();
-    const patronFirstName = $('#patronFirstName').val();
-    const patronMiddleInitial = $('#patronMiddleInitial').val();
-    const patronLastName = $('#patronLastName').val();
-    const patronAddressLine1 = $('#patronAddressLine1').val();
-    const patronAddressLine2 = $('#patronAddressLine2').val();
-    const patronCity = $('#patronCity').val();
-    const patronState = $('#patronState').val();
-    const patronZip = $('#patronZip').val();
+    const user_name = $('#patronUsername').val();
+    const first_name = $('#patronFirstName').val();
+    const middle_initial = $('#patronMiddleInitial').val();
+    const last_name = $('#patronLastName').val();
+    const address_1 = $('#patronAddressLine1').val();
+    const address_2 = $('#patronAddressLine2').val();
+    const city = $('#patronCity').val();
+    const state = $('#patronState').val();
+    const zip = $('#patronZip').val();
 
-    const response = fetch('/api/add/patron', {
+    const response = fetch('/api/admin/add/patron', {
         method: 'POST',
-        body: JSON.stringify({patronUsername, patronFirstName, patronMiddleInitial, patronLastName, patronAddressLine1, patronAddressLine2, patronCity, patronState, patronZip}),
+        body: JSON.stringify({user_name, first_name, middle_initial, last_name, address_1, address_2, city, state, zip}),
         headers: {'Content-Type': 'application/json'},
     });
 
@@ -49,18 +51,18 @@ const addPatron = async (event) => {
 const addBook = async (event) => {
     event.preventDefault();
 
-    const bookISBN = $('#bookISBN').val();
-    const bookTitle = $('#bookTitle').val();
-    const bookAuthor = $('#bookAuthor').val();
-    const bookYearPublished = $('#bookYearPublished').val();
-    const bookEdition = $('#bookEdition').val();
-    const bookPrice = $('#bookPrice').val();
-    const bookSubject = $('#bookSubject').val();
-    const bookDescription = $('#bookDescription').val();
+    const isbn = $('#bookISBN').val();
+    const title = $('#bookTitle').val();
+    const author = $('#bookAuthor').val();
+    const year_published = $('#bookYearPublished').val();
+    const edition = $('#bookEdition').val();
+    const price = $('#bookPrice').val();
+    const subject = $('#bookSubject').val();
+    const description = $('#bookDescription').val();
 
-    const response = fetch('/api/add/book', {
+    const response = fetch('/api/admin/add/book', {
         method: 'POST',
-        body: JSON.stringify({bookISBN, bookTitle, bookAuthor, bookYearPublished, bookEdition, bookPrice, bookSubject, bookDescription}),
+        body: JSON.stringify({isbn, title, author, year_published, edition, price, subject, description}),
         headers: {'Content-Type': 'application/json'},
     });
 

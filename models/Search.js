@@ -13,7 +13,19 @@ Search.init(
     },
     isbn: {  
         type: DataTypes.STRING,
-        allowNull: false,
+        allowNull: true,
+    },
+    subject: {  
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+    author: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+    title: {
+      type: DataTypes.STRING,
+      allowNull: true,
     },
   },
   {
@@ -25,4 +37,3 @@ Search.init(
 );
 
 module.exports = Search;
-

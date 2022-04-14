@@ -1,22 +1,13 @@
-<div class="item-card">
-  <p>Title: {{title}}</p>
-  <p>ISBN: {{isbn}}</p>
-  {{#if author}}
-    <p>Author: {{author}}</p>
-  {{/if}}
-  {{#if year_published}}
-    <p>Year: {{year_published}}</p>
-  {{/if}}
-  {{#if publisher}}
-    <p>Publisher: {{publisher}}</p>
-  {{/if}}
-  {{#if price}}
-    <p>Price: {{price}}</p>
-  {{/if}}
-  {{#if subject}}
-    <p>Classification: {{subject}}</p>
-  {{/if}}
-  {{#if description}}
-    <p>Description: {{description}}</p>
-  {{/if}}
-</div>
+  {{#each books as |book|}}
+    <div class="item-card">
+      <h2><b>Title: </b>{{book.title}}</h2>
+      <p><b>Author: </b>{{book.author}}</p>
+      <p><b>ISBN: </b>{{book.isbn}}</p>
+      <p><b>Year of Publication:</b> {{book.year_published}}</p>
+      <p><b>Edition: </b>{{book.edition}}</p>
+      <p><b>Price: </b>${{book.price}}</p>
+      <p><b>Subject: </b>{{book.subject}}</p>
+      <p><b>Description: </b>{{book.description}}</p>
+    </div>
+  {{/each}}
+

@@ -1,8 +1,28 @@
 <div>
+    <h2>Accurate Search Engine</h2>
     <form class="form search-form">
-        <input type="text" placeholder="Enter ISBN" name="isbn" id="isbn" required>
+        <input type="text" placeholder="Enter ISBN" name="isbn" id="isbn" autocomplete="off">
+        <input type="text" placeholder="Enter Title" name="title" id="title" autocomplete="off">
+        <input type="text" placeholder="Enter Author" name="author" id="author" autocomplete="off">
+        <select class="form-control" id="subject">
+            <option value="" selected disabled hidden>Select an Option</option>
+            <option value="Drama">Drama</option>
+            <option value="Fantasy">Fantasy</option>
+            <option value="Sci-Fi">Sci-Fi</option>
+            <option value="Mystery">Mystery</option>
+            <option value="Thriller">Thriller</option>
+            <option value="Romance">Romance</option>
+            <option value="Contemporary">Contemporary</option>
+        </select>
         <button type="submit">Search</button>
     </form> 
+    <br>
+    <h2>Blurry Search Engine</h2>
+    <form class="form recommended-search-form">
+        <input type="text" placeholder="Enter Title Keywords" name="keywords" id="keywords" autocomplete="off">
+        <button type="submit">Search</button>
+    </form>
+    
 </div>
 
 <script src="/js/search.js"></script>

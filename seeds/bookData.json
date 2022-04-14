@@ -2,32 +2,92 @@
     {
       "isbn": "0747532699",
       "title": "Harry Potter and the Philosopher's Stone",
-      "author": "J. K. Rowling",
+      "author": "J.K.Rowling",
       "year_published": 1997,
       "edition": "1",
       "price": 6.99,
       "subject": "Fantasy",
-      "description": "good"
+      "description": "Most reviews were very favourable, commenting on Rowling's imagination, humour, simple, direct style and clever plot construction, although a few complained that the final chapters seemed rushed. "
     },
     {
         "isbn": "0747538492",
         "title": "Harry Potter and the Chamber of Secrets",
-        "author": "J. K. Rowling",
+        "author": "J.K.Rowling",
         "year_published": 1998,
         "edition": "1",
-        "price": 6.99,
+        "price": 7.99,
         "subject": "Fantasy",
-        "description": "good"
+        "description": " Although Rowling says she found it difficult to finish the book, it won high praise and awards from critics, young readers, and the book industry, although some critics thought the story was perhaps too frightening for younger children. "
     },
     {
         "isbn": "0747542155",
         "title": "Harry Potter and the Prisoner of Azkaban",
-        "author": "J. K. Rowling",
+        "author": "J.K.Rowling",
         "year_published": 1999,
         "edition": "1",
-        "price": 6.99,
+        "price": 8.99,
         "subject": "Fantasy",
-        "description": "good"
+        "description": "The book sold 68,000 copies in just three days after its release in the United Kingdom and since has sold over three million in the country. The book won the 1999 Whitbread Children's Book Award, the Bram Stoker Award, and the 2000 Locus Award for Best Fantasy Novel and was short-listed for other awards, including the Hugo."
+    },
+    {
+        "isbn": "9781350116788",
+        "title": "A Doll's House",
+        "author": "Henrik Ibsen",
+        "year_published": 1879,
+        "edition": "1",
+        "price": 10.79,
+        "subject": "Drama",
+        "description": "The play is significant for the way it deals with the fate of a married woman, who at the time in Norway lacked reasonable opportunities for self-fulfillment in a male-dominated world, despite the fact that Ibsen denied it was his intent to write a feminist play. "
+    },
+    {
+        "isbn": "9783847848738",
+        "title": "The Time Machine",
+        "author": "H. G. Wells",
+        "year_published": 1895,
+        "edition": "1",
+        "price": 11.99,
+        "subject": "Sci-Fi",
+        "description": "A work of future history and speculative evolution, Time Machine is interpreted in modern times as a commentary on the increasing inequality and class divisions of Wells' era, which he projects as giving rise to two separate human species: the fair, childlike Eloi, and the savage, simian Morlocks, distant descendants of the contemporary upper and lower classes respectively."
+    },
+    {
+        "isbn": "9780062196200",
+        "title": "Strong Poison",
+        "author": "Dorothy L. Sayers",
+        "year_published": 1930,
+        "edition": "2",
+        "price": 8.99,
+        "subject": "Mystery",
+        "description": "The novel opens with mystery author Harriet Vane on trial for the murder of her former lover, Phillip Boyes: a writer with strong views on atheism, anarchy, and free love."
+    },
+    {
+        "isbn": "9781250301697",
+        "title": "The Silent Patient",
+        "author": "Alex Michaelides",
+        "year_published": 2019,
+        "edition": "1",
+        "price": 12.99,
+        "subject": "Thriller",
+        "description": "Pulling off a novel where the protagonist stays mum isn't easy, but this impressive, immersive debut―Brad Pitt's company has snapped up film rights―establishes Michaelides as a writer to watch."
+    },
+    {
+        "isbn": "9781416589648",
+        "title": "Little Bee",
+        "author": "Chris Cleave",
+        "year_published": 2008,
+        "edition": "2",
+        "price": 10.99,
+        "subject": "Contemporary",
+        "description": "Millions of people have read, discussed, debated, cried, and cheered with Little Bee, a Nigerian refugee girl whose violent and courageous journey​ puts a stunning face on the worldwide refugee crisis​."
+    },
+    {
+        "isbn": "9780141439518",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "year_published": 2002,
+        "edition": "3",
+        "price": 8.99,
+        "subject": "Romance",
+        "description": "Austen's most popular novel, the unforgettable story of Elizabeth Bennet and Mr. Darcy. Nominated as one of America’s best-loved novels by PBS’s The Great American Read."
     }
 ]
   

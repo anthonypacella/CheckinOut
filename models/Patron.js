@@ -5,47 +5,42 @@ class Patron extends Model {}
 
 Patron.init(
   {
-    id: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
-      primaryKey: true,
-      autoIncrement: true,
-    },
     user_name: {
       type: DataTypes.STRING,
       allowNull: false,
+      primaryKey: true
     },
     first_name: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: false
     },
     middle_initial: {
       type: DataTypes.STRING,
-      allowNull: true,
+      allowNull: true
     },
     last_name: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: false
     },
     address_1: {
         type: DataTypes.STRING,
-        allowNull: false,
+        allowNull: false
     },
     address_2: {
         type: DataTypes.STRING,
-        allowNull: true,
+        allowNull: true
     },
     city: {
         type: DataTypes.STRING,
-        allowNull: false,
+        allowNull: false
     },
     state: {
         type: DataTypes.STRING,
-        allowNull: false,
+        allowNull: false
     },
     zip: {
         type: DataTypes.STRING,
-        allowNull: false,
+        allowNull: false
     },
   },
   {

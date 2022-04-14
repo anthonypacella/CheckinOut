@@ -1,15 +1,15 @@
 const router = require('express').Router();
-const { Administrator } = require('../../models/Administrator');
-const { Book } = require('../../models/Book');
+const Administrator = require('../../models/Administrator.js');
+const { Book } = require('../../models/');
 // const { Branch } = require('../../models/Branch');
 // const { CD } = require('../../models/CD');
 // const { Movie } = require('../../models/Movie');
-const { Patron } = require('../../models/Patron');
+const Patron = require('../../models/Patron.js');
 
 router.post('/add/administrator', async (req, res) => {
     try {
-        const administratorData = await Administrator.create(req.body); 
-        res.status(200).json(administratorData);
+        const adminData = await Administrator.create(req.body); 
+        res.status(200).json(adminData);
     } catch (err) {
         res.status(400).json(err);
     }
@@ -59,6 +59,18 @@ router.post('/add/patron', async (req, res) => {
         res.status(400).json(err);
     }
 });
+
+router.get('/', async (req, res) => {
+    try {
+      const adminData = await Administrator.findAll();
+      res.status(200).json(adminData);
+    } catch (err) {
+      res.status(500).json(err);
+    }
+  });
+  
+
+module.exports = router;
 
 
 

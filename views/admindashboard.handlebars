@@ -7,10 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Administrator Dashboard</title>
 </head>
+<nav>
+    <a href="./admincatalog">Admin Catalog</a>
+    <a href="./bookcatalog">Book Catalog</a>
+    <a href="./patroncatalog">Patron Catalog</a>
+</nav>
 <body>
     <div class="addAdmin">
-        <label for="add-admin">Username:</label>
-        <input class="form-input" type="text" id="adminUsername" />
+        <label for="add-admin">Name:</label>
+        <input class="form-input" type="text" id="adminName" />
+        <label for="add-admin">Email:</label>
+        <input class="form-input" type="text" id="adminEmail" />
+        <label for="add-admin">Password:</label>
+        <input class="form-input" type="text" id="adminPassword" />
         <button class="btn btn-primary" type="submit" id = "addAdminbtn">Add Administrator</button>
     </div>
     <div class="addPatron">

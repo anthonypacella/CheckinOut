@@ -9,35 +9,35 @@ Book.init(
       type: DataTypes.STRING,
       allowNull: false,
       primaryKey: true,
-      autoIncrement: false
+      autoIncrement: false,
     },
     title: {  
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: false,
     },
     author: {
       type: DataTypes.STRING,
-      allowNull: true
+      allowNull: true,
     },
     year_published: {
       type: DataTypes.INTEGER,
-      allowNull: true
+      allowNull: true,
     },
     edition: {
       type: DataTypes.STRING,
-      allowNull: true
+      allowNull: true,
     },
     price: {
       type: DataTypes.DECIMAL(8,2),
-      allowNull: true
+      allowNull: true,
     },
     subject: {
       type: DataTypes.STRING,
-      allowNull: true
+      allowNull: true,
     },
     description: {
-      type: DataTypes.STRING,
-      allowNull: true
+      type: DataTypes.TEXT,
+      allowNull: true,
     },
     // key_words: {
     //   type: DataTypes.ARRAY(DataTypes.STRING),
@@ -48,7 +48,7 @@ Book.init(
     sequelize,
     freezeTableName: true,
     underscored: true,
-    modelName: 'book'
+    modelName: 'book',
   }
 );
 

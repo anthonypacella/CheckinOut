@@ -1,8 +1,8 @@
 const router = require('express').Router();
-const { Search, Book } = require('../../models');
-const url = require('url');    
+const { Search } = require('../../models');
 
 router.get('/', (req, res) => {
+  console.log('req', req);
   res.render('search', { message: `success` });
 });
 
@@ -10,9 +10,8 @@ router.get('/', (req, res) => {
 router.post('/', async (req, res) => {
   try {
     const newSearch = await Search.create({
-      ...req.body
+      ...req.body.query,
     });
-    console.log(newSearch.isbn);
     res.status(200).json(newSearch);
   } catch (err) {
     res.status(500).json(err);

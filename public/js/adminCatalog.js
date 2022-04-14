@@ -5,9 +5,9 @@ function buildTable(data) {
         var row = `<tr>
                         <td>${data[i].name}</td>
                         <td>${data[i].email}</td>
-                        <td>${data[i].password}</td
-                    </tr>
-                    <button type="submit" class = "delete" data-val="${data[i].id}">Delete</button>`
+                        <td>${data[i].password}</td>
+                        <td><button class = "delete btn btn-danger" type="submit" data-val="${data[i].id}">Delete</button></td>   
+                    </tr>`
         table.innerHTML += row;
     }
 }
@@ -43,5 +43,16 @@ adminTable.addEventListener('click', function(event) {
 });
 
 function deleteRow(rowid) {
-    fetch('.')
-    }
+    fetch(`/api/admin/${rowid}`, {
+        method: 'DELETE',
+        headers: {
+            'Content-type': 'application/json'
+        },
+    })
+    .then(res => {
+        if(res.ok) {console.log("DELETE request successful")}
+        else {console.log("DELETE request unsuccessful")}
+        return res
+    })
+    .then(document.location.reload());
+}

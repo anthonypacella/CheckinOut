@@ -68,6 +68,28 @@ router.get('/', async (req, res) => {
       res.status(500).json(err);
     }
   });
+
+router.get('/:rowid', async (req, res) => {
+    try {
+        const adminData = await Administrator.findByPk(req.params.rowid);
+        res.status(200).json(adminData);
+      } catch (err) {
+        res.status(500).json(err);
+      }
+});
+
+router.delete('/:rowid', async (req, res) => {
+    try {
+        const adminData = await Administrator.destroy({
+            where: {
+                id: req.params.rowid
+            }
+        });
+        res.status(200).json(adminData);
+      } catch (err) {
+        res.status(500).json(err);
+      }
+});
   
 
 module.exports = router;

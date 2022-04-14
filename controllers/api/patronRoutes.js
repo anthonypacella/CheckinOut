@@ -10,4 +10,17 @@ router.get('/', async (req, res) => {
     }
   });
 
+router.delete('/:rowid', async (req, res) => {
+    try {
+        const bookData = await Patron.destroy({
+            where: {
+                id: req.params.rowid
+            }
+        });
+        res.status(200).json(bookData);
+      } catch (err) {
+        res.status(500).json(err);
+      }
+  });
+
   module.exports = router;

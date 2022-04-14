@@ -18,6 +18,7 @@ const addAdministrator = async (event) => {
     });
 
     if (response.ok) {
+        console.log("admin response ok")
         document.location.replace('/admin/admincatalog')
     }
 }
@@ -25,7 +26,7 @@ const addAdministrator = async (event) => {
 const addPatron = async (event) => {
     event.preventDefault();
 
-    const user_name = $('#patronUsername').val();
+    const email = $('#patronUsername').val();
     const first_name = $('#patronFirstName').val();
     const middle_initial = $('#patronMiddleInitial').val();
     const last_name = $('#patronLastName').val();
@@ -35,13 +36,14 @@ const addPatron = async (event) => {
     const state = $('#patronState').val();
     const zip = $('#patronZip').val();
 
-    const response = fetch('/api/admin/add/patron', {
+    const response = await fetch('/api/admin/add/patron', {
         method: 'POST',
-        body: JSON.stringify({user_name, first_name, middle_initial, last_name, address_1, address_2, city, state, zip}),
+        body: JSON.stringify({email, first_name, middle_initial, last_name, address_1, address_2, city, state, zip}),
         headers: {'Content-Type': 'application/json'},
     });
 
     if (response.ok) {
+        console.log("patron response ok")
         document.location.replace('/admin/patroncatalog')
     }
 
@@ -60,13 +62,14 @@ const addBook = async (event) => {
     const subject = $('#bookSubject').val();
     const description = $('#bookDescription').val();
 
-    const response = fetch('/api/admin/add/book', {
+    const response = await fetch('/api/admin/add/book', {
         method: 'POST',
         body: JSON.stringify({isbn, title, author, year_published, edition, price, subject, description}),
         headers: {'Content-Type': 'application/json'},
     });
 
     if (response.ok) {
+        console.log("book response ok")
         document.location.replace('/admin/bookcatalog')
     }
 }

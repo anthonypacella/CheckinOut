@@ -5,40 +5,47 @@ const Op = Sequelize.Op;
 
 //Get all books
 router.get('/', async (req, res) => {
-  try {
-    console.log('req', req);
-    console.log('req.query', req.query);
-    const { isbn, author, subject, title } = req.query;
+  // try {
+  //   console.log('req', req);
+  //   console.log('req.query', req.query);
+  //   const { isbn, author, subject, title } = req.query;
 
-    const where = {};
-    if (isbn) {
-      where.isbn = isbn;
+  //   const where = {};
+  //   if (isbn) {
+  //     where.isbn = isbn;
+  //   }
+  //   if (author) {
+  //     where.author = author;
+  //   }
+  //   if (subject) {
+  //     where.subject = subject;
+  //   }
+  //   if (title) {
+  //     where.title = title;
+  //   }
+
+  //   const bookData = await Book.findAll({
+  //       where: where,
+  //   })
+
+
+  //   const books = bookData.map((book) => book.get({ plain: true }));
+  //   res.render('book', {
+  //     books: books
+  //     // ,
+  //     // logged_in: req.session.logged_in
+  //   });
+
+  // } catch (err) {
+  //   res.status(500).json(err);
+  // }
+    try {
+      const bookData = await Book.findAll();
+      res.status(200).json(bookData);
+    } catch (err) {
+      res.status(500).json(err);
     }
-    if (author) {
-      where.author = author;
-    }
-    if (subject) {
-      where.subject = subject;
-    }
-    if (title) {
-      where.title = title;
-    }
 
-    const bookData = await Book.findAll({
-        where: where,
-    })
-
-
-    const books = bookData.map((book) => book.get({ plain: true }));
-    res.render('book', {
-      books: books
-      // ,
-      // logged_in: req.session.logged_in
-    });
-
-  } catch (err) {
-    res.status(500).json(err);
-  }
 });
 
 
@@ -65,6 +72,19 @@ router.get('/recommendations', async (req, res) => {
   } catch (err) {
     res.status(500).json(err);
   }
+});
+
+router.delete('/:rowid', async (req, res) => {
+  try {
+      const bookData = await Book.destroy({
+          where: {
+              id: req.params.rowid
+          }
+      });
+      res.status(200).json(bookData);
+    } catch (err) {
+      res.status(500).json(err);
+    }
 });
 
 module.exports = router;

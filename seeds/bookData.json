@@ -88,6 +88,907 @@
         "price": 8.99,
         "subject": "Romance",
         "description": "Austen's most popular novel, the unforgettable story of Elizabeth Bennet and Mr. Darcy. Nominated as one of America’s best-loved novels by PBS’s The Great American Read."
-    }
+    },
+    {
+        "isbn": "493083988-2",
+        "title": "Bradtke-Marquardt",
+        "author": "Trey Babber",
+        "year_published": 1997,
+        "edition": 13,
+        "price": 46.26,
+        "subject": "Comedy|Drama",
+        "description": "donec quis orci eget orci vehicula condimentum curabitur in libero ut massa"
+      }, {
+        "isbn": "392679906-4",
+        "title": "Konopelski-Blanda",
+        "author": "Avivah Tallon",
+        "year_published": 1993,
+        "edition": 2,
+        "price": 38.49,
+        "subject": "Documentary",
+        "description": "turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere"
+      }, {
+        "isbn": "490540960-8",
+        "title": "Haley, Hudson and Koelpin",
+        "author": "Saunderson Blose",
+        "year_published": 2005,
+        "edition": 7,
+        "price": 38.84,
+        "subject": "Action|Comedy",
+        "description": "pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum"
+      }, {
+        "isbn": "165865254-1",
+        "title": "Greenholt, Block and Brekke",
+        "author": "Doralyn Trouel",
+        "year_published": 1992,
+        "edition": 15,
+        "price": 9.9,
+        "subject": "Fantasy|Horror|Romance|Thriller",
+        "description": "lectus suspendisse potenti in eleifend quam a odio in hac habitasse"
+      }, {
+        "isbn": "103507434-6",
+        "title": "Kessler-Nitzsche",
+        "author": "Jacquenette Tapner",
+        "year_published": 1993,
+        "edition": 15,
+        "price": 14.17,
+        "subject": "War",
+        "description": "curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed"
+      }, {
+        "isbn": "015604797-7",
+        "title": "Breitenberg-Gottlieb",
+        "author": "Bobina Neicho",
+        "year_published": 1989,
+        "edition": 2,
+        "price": 11.0,
+        "subject": "Drama|Romance",
+        "description": "nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo"
+      }, {
+        "isbn": "193980600-3",
+        "title": "Grimes and Sons",
+        "author": "Filberto Seyler",
+        "year_published": 1992,
+        "edition": 9,
+        "price": 35.65,
+        "subject": "Comedy|Drama|Romance",
+        "description": "justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus"
+      }, {
+        "isbn": "411125738-0",
+        "title": "Barton-Huels",
+        "author": "Camella Dreye",
+        "year_published": 2001,
+        "edition": 12,
+        "price": 10.98,
+        "subject": "Documentary",
+        "description": "nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio"
+      }, {
+        "isbn": "526941793-6",
+        "title": "Schneider, White and Larkin",
+        "author": "Peder Brokenshaw",
+        "year_published": 2011,
+        "edition": 8,
+        "price": 10.77,
+        "subject": "Crime|Mystery|Thriller",
+        "description": "non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis"
+      }, {
+        "isbn": "333570143-7",
+        "title": "Gulgowski-Sauer",
+        "author": "Estrella Mogie",
+        "year_published": 2002,
+        "edition": 7,
+        "price": 42.27,
+        "subject": "Adventure|Drama",
+        "description": "felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit"
+      }, {
+        "isbn": "238389209-2",
+        "title": "Harvey, Mohr and Johns",
+        "author": "Axel Masham",
+        "year_published": 1993,
+        "edition": 1,
+        "price": 40.36,
+        "subject": "Animation|Children|Drama|Musical",
+        "description": "orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi"
+      }, {
+        "isbn": "152644335-X",
+        "title": "Abshire, Anderson and Beatty",
+        "author": "Jackie Groundwator",
+        "year_published": 1996,
+        "edition": 6,
+        "price": 9.37,
+        "subject": "Drama",
+        "description": "sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis"
+      }, {
+        "isbn": "943344491-4",
+        "title": "Gorczany LLC",
+        "author": "Kristine Plaschke",
+        "year_published": 2002,
+        "edition": 19,
+        "price": 14.79,
+        "subject": "Action|Thriller",
+        "description": "nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc"
+      }, {
+        "isbn": "660598210-X",
+        "title": "Shields, Gislason and Raynor",
+        "author": "Anette Clampin",
+        "year_published": 1996,
+        "edition": 8,
+        "price": 46.65,
+        "subject": "Comedy|Drama|Musical",
+        "description": "arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse"
+      }, {
+        "isbn": "224805106-9",
+        "title": "Orn LLC",
+        "author": "Martin Witchalls",
+        "year_published": 2002,
+        "edition": 17,
+        "price": 1.18,
+        "subject": "Drama|Romance",
+        "description": "turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a"
+      }, {
+        "isbn": "656565323-2",
+        "title": "Kreiger LLC",
+        "author": "Iosep Brimson",
+        "year_published": 1998,
+        "edition": null,
+        "price": 35.76,
+        "subject": "Comedy|Drama|Romance",
+        "description": "ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie"
+      }, {
+        "isbn": "997713216-X",
+        "title": "Russel-Ritchie",
+        "author": "Wendall Gasking",
+        "year_published": 1996,
+        "edition": null,
+        "price": 47.1,
+        "subject": "Adventure|Thriller",
+        "description": "eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien"
+      }, {
+        "isbn": "509601088-0",
+        "title": "Krajcik and Sons",
+        "author": "Bunni Pountain",
+        "year_published": 2006,
+        "edition": 10,
+        "price": 49.16,
+        "subject": "Action|Adventure|Comedy|Fantasy",
+        "description": "ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat"
+      }, {
+        "isbn": "679066294-4",
+        "title": "Franecki-Stamm",
+        "author": "Pru Supple",
+        "year_published": 2009,
+        "edition": null,
+        "price": 33.12,
+        "subject": "Drama",
+        "description": "in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque"
+      }, {
+        "isbn": "154948741-8",
+        "title": "Heller-Hermann",
+        "author": "Lyda Hammerson",
+        "year_published": 1988,
+        "edition": 19,
+        "price": 17.3,
+        "subject": "Comedy",
+        "description": "faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi"
+      }, {
+        "isbn": "830083819-8",
+        "title": "Deckow LLC",
+        "author": "Thomasina Greensite",
+        "year_published": 1999,
+        "edition": 10,
+        "price": 23.8,
+        "subject": "Mystery|Sci-Fi|Thriller",
+        "description": "sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit"
+      }, {
+        "isbn": "064926732-X",
+        "title": "Quitzon LLC",
+        "author": "Janene Pimlett",
+        "year_published": 2005,
+        "edition": 5,
+        "price": 18.27,
+        "subject": "Comedy|Documentary",
+        "description": "sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend"
+      }, {
+        "isbn": "268755914-8",
+        "title": "Keeling LLC",
+        "author": "Grover Bruckenthal",
+        "year_published": 1999,
+        "edition": 7,
+        "price": 22.09,
+        "subject": "Comedy",
+        "description": "lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum"
+      }, {
+        "isbn": "951487616-4",
+        "title": "Kiehn, Towne and Littel",
+        "author": "Alyse Suggett",
+        "year_published": 2006,
+        "edition": 6,
+        "price": 41.45,
+        "subject": "Adventure|Romance|Sci-Fi",
+        "description": "nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget"
+      }, {
+        "isbn": "069504593-8",
+        "title": "Runte-Swaniawski",
+        "author": "Portia Boneham",
+        "year_published": 1996,
+        "edition": 2,
+        "price": 4.48,
+        "subject": "Crime|Drama|Thriller",
+        "description": "quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat"
+      }, {
+        "isbn": "947560933-4",
+        "title": "Fadel, Williamson and Lehner",
+        "author": "Atalanta Ferreo",
+        "year_published": 1998,
+        "edition": 4,
+        "price": 8.83,
+        "subject": "Comedy|Drama|Romance",
+        "description": "eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus"
+      }, {
+        "isbn": "259672501-0",
+        "title": "Hoppe, Boyle and Hoppe",
+        "author": "Constantine Grisard",
+        "year_published": 2010,
+        "edition": 17,
+        "price": 31.67,
+        "subject": "Comedy",
+        "description": "erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus"
+      }, {
+        "isbn": "360920530-X",
+        "title": "Dibbert and Sons",
+        "author": "Paxton Claussen",
+        "year_published": 1987,
+        "edition": 14,
+        "price": 10.95,
+        "subject": "Comedy|Horror",
+        "description": "proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi"
+      }, {
+        "isbn": "004582169-0",
+        "title": "Nolan, Goldner and Rogahn",
+        "author": "Florella Braunthal",
+        "year_published": 1990,
+        "edition": 13,
+        "price": 32.51,
+        "subject": "Drama",
+        "description": "curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet"
+      }, {
+        "isbn": "978663551-5",
+        "title": "Ritchie-Raynor",
+        "author": "Neddie Pifford",
+        "year_published": 1990,
+        "edition": null,
+        "price": 17.47,
+        "subject": "Drama",
+        "description": "amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit"
+      }, {
+        "isbn": "668277174-6",
+        "title": "Kshlerin LLC",
+        "author": "Rafe Corrison",
+        "year_published": 1994,
+        "edition": 3,
+        "price": 1.0,
+        "subject": "Action|Comedy|Drama|Thriller",
+        "description": "enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi"
+      }, {
+        "isbn": "625994451-9",
+        "title": "Cartwright, D'Amore and Gerlach",
+        "author": "Duke Sporgeon",
+        "year_published": 1995,
+        "edition": 7,
+        "price": 9.07,
+        "subject": "Documentary|Mystery",
+        "description": "posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum"
+      }, {
+        "isbn": "033329077-1",
+        "title": "McDermott-Strosin",
+        "author": "Rubina Cadagan",
+        "year_published": 2007,
+        "edition": 2,
+        "price": 45.89,
+        "subject": "Comedy",
+        "description": "in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices"
+      }, {
+        "isbn": "324255230-X",
+        "title": "Considine and Sons",
+        "author": "Sonya Pethrick",
+        "year_published": 1993,
+        "edition": 8,
+        "price": 4.42,
+        "subject": "Action|Crime",
+        "description": "elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque"
+      }, {
+        "isbn": "705487380-7",
+        "title": "Franecki-Doyle",
+        "author": "Allie Buxton",
+        "year_published": 1996,
+        "edition": 6,
+        "price": 36.18,
+        "subject": "Children|Comedy|Fantasy",
+        "description": "erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor"
+      }, {
+        "isbn": "197065036-2",
+        "title": "Schoen, Quigley and Treutel",
+        "author": "Kristy Samme",
+        "year_published": 2003,
+        "edition": 8,
+        "price": 32.38,
+        "subject": "Adventure|Animation|Children|Comedy",
+        "description": "aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi"
+      }, {
+        "isbn": "079449997-X",
+        "title": "Mueller LLC",
+        "author": "Dorena Huckfield",
+        "year_published": 1994,
+        "edition": 8,
+        "price": 32.5,
+        "subject": "Drama",
+        "description": "id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est"
+      }, {
+        "isbn": "426791354-4",
+        "title": "Kutch, Shields and Herzog",
+        "author": "Lanna Gration",
+        "year_published": 2006,
+        "edition": 8,
+        "price": 42.37,
+        "subject": "Action|Adventure|Comedy|Sci-Fi|IMAX",
+        "description": "sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit"
+      }, {
+        "isbn": "236013933-9",
+        "title": "Stroman, Gerhold and Harber",
+        "author": "Steffie Ritchie",
+        "year_published": 2001,
+        "edition": 14,
+        "price": 40.35,
+        "subject": "Drama",
+        "description": "aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in"
+      }, {
+        "isbn": "707002871-7",
+        "title": "O'Hara, Marquardt and Murray",
+        "author": "Janek Joll",
+        "year_published": 2005,
+        "edition": 10,
+        "price": 43.45,
+        "subject": "Documentary",
+        "description": "leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a"
+      }, {
+        "isbn": "920651769-4",
+        "title": "Dietrich Inc",
+        "author": "Ring Roddie",
+        "year_published": 2007,
+        "edition": null,
+        "price": 25.96,
+        "subject": "Documentary",
+        "description": "vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at"
+      }, {
+        "isbn": "040115253-7",
+        "title": "Yundt Group",
+        "author": "Hector Cattroll",
+        "year_published": 1996,
+        "edition": 10,
+        "price": 25.24,
+        "subject": "Adventure|Comedy",
+        "description": "ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer"
+      }, {
+        "isbn": "615943404-7",
+        "title": "Adams Group",
+        "author": "Felike McKeller",
+        "year_published": 1995,
+        "edition": 10,
+        "price": 35.87,
+        "subject": "Documentary",
+        "description": "curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget"
+      }, {
+        "isbn": "680921783-5",
+        "title": "Lind-Littel",
+        "author": "Gerhard Bagworth",
+        "year_published": 1993,
+        "edition": 3,
+        "price": 4.4,
+        "subject": "Western",
+        "description": "nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem"
+      }, {
+        "isbn": "836258418-1",
+        "title": "Goyette-Crona",
+        "author": "Selle Dwyr",
+        "year_published": 2008,
+        "edition": null,
+        "price": 42.66,
+        "subject": "Documentary",
+        "description": "nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero"
+      }, {
+        "isbn": "709516749-4",
+        "title": "Welch and Sons",
+        "author": "Charlie Edgeon",
+        "year_published": 2012,
+        "edition": 2,
+        "price": 21.69,
+        "subject": "Children|Comedy",
+        "description": "lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc"
+      }, {
+        "isbn": "351447720-5",
+        "title": "Zboncak-Hagenes",
+        "author": "Amandi Baggally",
+        "year_published": 2002,
+        "edition": 2,
+        "price": 45.76,
+        "subject": "Comedy",
+        "description": "est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse"
+      }, {
+        "isbn": "328211637-3",
+        "title": "Gutmann-Kuhn",
+        "author": "Mae Domelow",
+        "year_published": 2008,
+        "edition": 18,
+        "price": 16.36,
+        "subject": "Drama|Thriller",
+        "description": "in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed"
+      }, {
+        "isbn": "796518131-2",
+        "title": "Kulas-Schumm",
+        "author": "Magdalena Oen",
+        "year_published": 2001,
+        "edition": 1,
+        "price": 8.45,
+        "subject": "Documentary",
+        "description": "nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo"
+      }, {
+        "isbn": "805441229-0",
+        "title": "Towne LLC",
+        "author": "Adriaens Goare",
+        "year_published": 2008,
+        "edition": 6,
+        "price": 10.43,
+        "subject": "Action|Thriller",
+        "description": "varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros"
+      }, {
+        "isbn": "811581467-9",
+        "title": "Jacobs-Lakin",
+        "author": "Frieda Dulen",
+        "year_published": 2006,
+        "edition": null,
+        "price": 13.75,
+        "subject": "Drama",
+        "description": "vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus"
+      }, {
+        "isbn": "646841043-6",
+        "title": "Rutherford and Sons",
+        "author": "Arleta Brisard",
+        "year_published": 2008,
+        "edition": 6,
+        "price": 30.78,
+        "subject": "Horror|Thriller",
+        "description": "suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus"
+      }, {
+        "isbn": "979378965-4",
+        "title": "Hettinger, Hartmann and Bins",
+        "author": "Chaunce Duffield",
+        "year_published": 1995,
+        "edition": 20,
+        "price": 42.4,
+        "subject": "Drama",
+        "description": "lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate"
+      }, {
+        "isbn": "839861730-6",
+        "title": "Schuppe-Stamm",
+        "author": "Marcille Dearsley",
+        "year_published": 1986,
+        "edition": 19,
+        "price": 42.02,
+        "subject": "Drama|Romance",
+        "description": "eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum"
+      }, {
+        "isbn": "421790288-3",
+        "title": "Russel Inc",
+        "author": "Jory Riddler",
+        "year_published": 2000,
+        "edition": 11,
+        "price": 38.29,
+        "subject": "Comedy|Drama",
+        "description": "ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel"
+      }, {
+        "isbn": "924409116-X",
+        "title": "Schneider, Langosh and Veum",
+        "author": "Corrine Arrighini",
+        "year_published": 1998,
+        "edition": 19,
+        "price": 28.39,
+        "subject": "Comedy|Drama|Fantasy",
+        "description": "pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis"
+      }, {
+        "isbn": "982585778-1",
+        "title": "O'Kon LLC",
+        "author": "Aline Dovington",
+        "year_published": 2008,
+        "edition": 16,
+        "price": 12.87,
+        "subject": "Comedy",
+        "description": "est phasellus sit amet erat nulla tempus vivamus in felis eu sapien"
+      }, {
+        "isbn": "820246960-0",
+        "title": "Berge-Mraz",
+        "author": "Ringo O'Cahsedy",
+        "year_published": 1991,
+        "edition": 6,
+        "price": 48.89,
+        "subject": "Fantasy|Horror|Sci-Fi|Thriller",
+        "description": "ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi"
+      }, {
+        "isbn": "380442925-4",
+        "title": "Bradtke, Moore and Schaden",
+        "author": "Cherida Danko",
+        "year_published": 2003,
+        "edition": 12,
+        "price": 40.85,
+        "subject": "Comedy|Drama",
+        "description": "ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id"
+      }, {
+        "isbn": "833779557-3",
+        "title": "Cronin-Bailey",
+        "author": "Godiva Bracey",
+        "year_published": 2009,
+        "edition": 13,
+        "price": 36.33,
+        "subject": "Drama",
+        "description": "quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt"
+      }, {
+        "isbn": "811550112-3",
+        "title": "Cremin, Wolff and Toy",
+        "author": "Elsy Sapey",
+        "year_published": 2003,
+        "edition": 1,
+        "price": 33.59,
+        "subject": "Drama",
+        "description": "lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer"
+      }, {
+        "isbn": "596249001-0",
+        "title": "Kihn, Luettgen and Zulauf",
+        "author": "Brucie Gorton",
+        "year_published": 2004,
+        "edition": null,
+        "price": 10.52,
+        "subject": "Drama",
+        "description": "aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu"
+      }, {
+        "isbn": "421200389-9",
+        "title": "Sipes and Sons",
+        "author": "Clerc Figures",
+        "year_published": 1993,
+        "edition": 7,
+        "price": 12.56,
+        "subject": "Drama|Romance",
+        "description": "nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non"
+      }, {
+        "isbn": "528701653-0",
+        "title": "Corkery Group",
+        "author": "Sissy Raspin",
+        "year_published": 2007,
+        "edition": 3,
+        "price": 19.8,
+        "subject": "Action|Adventure|Sci-Fi|IMAX",
+        "description": "accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus"
+      }, {
+        "isbn": "445195144-5",
+        "title": "O'Conner Group",
+        "author": "Glad Barnhill",
+        "year_published": 1994,
+        "edition": 16,
+        "price": 15.68,
+        "subject": "Documentary|Drama",
+        "description": "eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est"
+      }, {
+        "isbn": "860280759-7",
+        "title": "Predovic and Sons",
+        "author": "Gilbert Playdon",
+        "year_published": 2008,
+        "edition": 16,
+        "price": 35.62,
+        "subject": "Drama",
+        "description": "morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet"
+      }, {
+        "isbn": "122320821-4",
+        "title": "Stanton LLC",
+        "author": "Ricard Meatyard",
+        "year_published": 1998,
+        "edition": 10,
+        "price": 27.29,
+        "subject": "Action|Adventure|Fantasy",
+        "description": "vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id"
+      }, {
+        "isbn": "475580248-2",
+        "title": "Wisozk-Roberts",
+        "author": "Konstantin Corinton",
+        "year_published": 2006,
+        "edition": null,
+        "price": 10.82,
+        "subject": "Sci-Fi",
+        "description": "rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero"
+      }, {
+        "isbn": "615465545-2",
+        "title": "Feeney-Heidenreich",
+        "author": "Winfield Brooksbank",
+        "year_published": 1993,
+        "edition": 1,
+        "price": 43.85,
+        "subject": "Comedy|Drama|Romance",
+        "description": "in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero"
+      }, {
+        "isbn": "992280219-8",
+        "title": "Fisher, Schinner and Reichel",
+        "author": "Darlene Youngman",
+        "year_published": 1998,
+        "edition": 8,
+        "price": 49.69,
+        "subject": "Crime",
+        "description": "tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam"
+      }, {
+        "isbn": "602540022-9",
+        "title": "Bashirian LLC",
+        "author": "Clint Albrook",
+        "year_published": 2007,
+        "edition": 14,
+        "price": 14.78,
+        "subject": "Sci-Fi",
+        "description": "in porttitor pede justo eu massa donec dapibus duis at velit"
+      }, {
+        "isbn": "113582389-8",
+        "title": "Mante, Sipes and Toy",
+        "author": "Huntlee Langeren",
+        "year_published": 2001,
+        "edition": 9,
+        "price": 18.51,
+        "subject": "Horror|Thriller",
+        "description": "potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes"
+      }, {
+        "isbn": "148362983-X",
+        "title": "Shanahan-Howell",
+        "author": "Mark Winship",
+        "year_published": 1988,
+        "edition": 13,
+        "price": 19.34,
+        "subject": "Documentary",
+        "description": "morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a"
+      }, {
+        "isbn": "185178885-9",
+        "title": "Kilback, Farrell and Hills",
+        "author": "Dukie Mossbee",
+        "year_published": 1997,
+        "edition": 13,
+        "price": 31.4,
+        "subject": "Thriller",
+        "description": "amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio"
+      }, {
+        "isbn": "063393167-5",
+        "title": "Emard, Heidenreich and Tremblay",
+        "author": "Barb Bartalucci",
+        "year_published": 2000,
+        "edition": 3,
+        "price": 13.93,
+        "subject": "Crime|Drama|Film-Noir",
+        "description": "viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis"
+      }, {
+        "isbn": "969072570-X",
+        "title": "Kohler-Weber",
+        "author": "Kip Baggarley",
+        "year_published": 2006,
+        "edition": 1,
+        "price": 34.71,
+        "subject": "Comedy|Drama",
+        "description": "iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan"
+      }, {
+        "isbn": "059505972-4",
+        "title": "Lesch, Pacocha and Jacobs",
+        "author": "Daisie Laffoley-Lane",
+        "year_published": 1998,
+        "edition": 17,
+        "price": 31.48,
+        "subject": "Comedy",
+        "description": "a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus"
+      }, {
+        "isbn": "290927173-0",
+        "title": "Sawayn Inc",
+        "author": "Genny Ales",
+        "year_published": 2006,
+        "edition": 3,
+        "price": 2.32,
+        "subject": "Drama",
+        "description": "platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet"
+      }, {
+        "isbn": "535633051-0",
+        "title": "Nitzsche Group",
+        "author": "Anette Bonanno",
+        "year_published": 2008,
+        "edition": 3,
+        "price": 47.85,
+        "subject": "Comedy",
+        "description": "et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem"
+      }, {
+        "isbn": "675839912-5",
+        "title": "Beatty Inc",
+        "author": "Elene Pither",
+        "year_published": 2007,
+        "edition": 20,
+        "price": 15.77,
+        "subject": "Drama|Thriller",
+        "description": "tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit"
+      }, {
+        "isbn": "176308194-X",
+        "title": "Littel, Brakus and West",
+        "author": "Allie Sully",
+        "year_published": 2001,
+        "edition": 11,
+        "price": 8.88,
+        "subject": "Horror|Thriller",
+        "description": "morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc"
+      }, {
+        "isbn": "276265196-4",
+        "title": "Brown-Russel",
+        "author": "Lacy Bownd",
+        "year_published": 2001,
+        "edition": 17,
+        "price": 29.09,
+        "subject": "Comedy|Horror",
+        "description": "augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent"
+      }, {
+        "isbn": "593081797-9",
+        "title": "Simonis-Ryan",
+        "author": "Cortney Caesmans",
+        "year_published": 2002,
+        "edition": 15,
+        "price": 4.81,
+        "subject": "Crime|Drama|Horror",
+        "description": "consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu"
+      }, {
+        "isbn": "189457341-2",
+        "title": "Doyle, Gottlieb and Dibbert",
+        "author": "Sherm Albutt",
+        "year_published": 1988,
+        "edition": 12,
+        "price": 33.12,
+        "subject": "Drama|War",
+        "description": "lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis"
+      }, {
+        "isbn": "627169089-0",
+        "title": "Anderson, Berge and Kunze",
+        "author": "Leonardo Branton",
+        "year_published": 1992,
+        "edition": 18,
+        "price": 2.04,
+        "subject": "Children|Comedy",
+        "description": "ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis"
+      }, {
+        "isbn": "922567054-0",
+        "title": "Rosenbaum Group",
+        "author": "Gabbie Klaassens",
+        "year_published": 2004,
+        "edition": 13,
+        "price": 38.64,
+        "subject": "Adventure|Sci-Fi",
+        "description": "praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in"
+      }, {
+        "isbn": "438450463-2",
+        "title": "Kiehn and Sons",
+        "author": "Gretta Caillou",
+        "year_published": 1994,
+        "edition": 1,
+        "price": 32.13,
+        "subject": "Adventure|Drama|Romance",
+        "description": "eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis"
+      }, {
+        "isbn": "014982000-3",
+        "title": "Macejkovic Inc",
+        "author": "Lorry Haddy",
+        "year_published": 1989,
+        "edition": 17,
+        "price": 12.07,
+        "subject": "Adventure|Western",
+        "description": "neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum"
+      }, {
+        "isbn": "585660974-3",
+        "title": "Beer, Feest and Satterfield",
+        "author": "Hodge Caddick",
+        "year_published": 2004,
+        "edition": 18,
+        "price": 24.69,
+        "subject": "Action|Adventure|Crime",
+        "description": "turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices"
+      }, {
+        "isbn": "360347235-7",
+        "title": "Kunze-Runolfsdottir",
+        "author": "Felecia Foltin",
+        "year_published": 2007,
+        "edition": null,
+        "price": 9.91,
+        "subject": "Documentary",
+        "description": "sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh"
+      }, {
+        "isbn": "988696022-1",
+        "title": "McGlynn Group",
+        "author": "Ellette Laxton",
+        "year_published": 2011,
+        "edition": 13,
+        "price": 41.81,
+        "subject": "Drama",
+        "description": "sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla"
+      }, {
+        "isbn": "916271667-0",
+        "title": "Schowalter, McLaughlin and Shields",
+        "author": "Janeen Himpson",
+        "year_published": 2000,
+        "edition": 5,
+        "price": 3.62,
+        "subject": "Comedy",
+        "description": "quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse"
+      }, {
+        "isbn": "468376933-6",
+        "title": "Prohaska, Deckow and Towne",
+        "author": "Henryetta Oganian",
+        "year_published": 1995,
+        "edition": 17,
+        "price": 33.78,
+        "subject": "Comedy|Mystery|Thriller",
+        "description": "sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate"
+      }, {
+        "isbn": "888432587-0",
+        "title": "Bergstrom and Sons",
+        "author": "Tailor Semeradova",
+        "year_published": 1998,
+        "edition": 15,
+        "price": 45.47,
+        "subject": "Comedy",
+        "description": "et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien"
+      }, {
+        "isbn": "555412457-7",
+        "title": "Schimmel Group",
+        "author": "Vasili Eccott",
+        "year_published": 1994,
+        "edition": 8,
+        "price": 8.85,
+        "subject": "(no genres listed)",
+        "description": "tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et"
+      }, {
+        "isbn": "542449198-7",
+        "title": "Powlowski-Predovic",
+        "author": "Lock Fautley",
+        "year_published": 2012,
+        "edition": 7,
+        "price": 43.94,
+        "subject": "Drama|Mystery",
+        "description": "consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo"
+      }, {
+        "isbn": "117026898-6",
+        "title": "Daniel LLC",
+        "author": "Adriane Ivain",
+        "year_published": 1995,
+        "edition": 15,
+        "price": 10.79,
+        "subject": "Animation|Comedy",
+        "description": "dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit"
+      }, {
+        "isbn": "179865948-4",
+        "title": "Pacocha-Dach",
+        "author": "Adella Pering",
+        "year_published": 2008,
+        "edition": 15,
+        "price": 40.1,
+        "subject": "Comedy",
+        "description": "ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae"
+      }, {
+        "isbn": "005218210-X",
+        "title": "D'Amore-Stehr",
+        "author": "Dollie Castiglioni",
+        "year_published": 2003,
+        "edition": 11,
+        "price": 19.13,
+        "subject": "Comedy|Drama",
+        "description": "vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis"
+      }, {
+        "isbn": "669947710-2",
+        "title": "Gleason, Bailey and Prosacco",
+        "author": "Loralie Emblin",
+        "year_published": 2009,
+        "edition": 8,
+        "price": 12.43,
+        "subject": "Action|Crime|Drama|Horror",
+        "description": "pellentesque volutpat dui maecenas tristique est et tempus semper est quam"
+      }
 ]
   

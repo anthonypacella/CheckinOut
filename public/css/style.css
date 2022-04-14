@@ -22,3 +22,14 @@ header, .project:not(:last-child) {
   font-weight: bold;
   margin-left: -5px;
 }
+
+.homeimg:hover {
+  opacity: .5;
+}
+
+.homeimg {
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+

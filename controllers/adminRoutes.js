@@ -2,24 +2,44 @@ const router = require('express').Router();
 const path = require('path');
 
 router.get('/login', async (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/html/adminlogin.html'));
+    try {
+        res.render('adminlogin');
+      } catch (err) {
+        res.status(500).json(err);
+      }
 });
 
 router.get('/dashboard', async (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/html/admindashboard.html'));
+    try {
+        res.render('admindashboard');
+      } catch (err) {
+        res.status(500).json(err);
+      }
 });
 
 router.get('/admincatalog', async (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/html/adminCatalog.html'));
-});
+    try {
+        res.render('admincatalog');
+      } catch (err) {
+        res.status(500).json(err);
+      }
+    });
 
 router.get('/bookcatalog', async (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/html/bookCatalog.html'));
-});
+    try {
+        res.render('bookcatalog');
+      } catch (err) {
+        res.status(500).json(err);
+      }
+    });
 
 router.get('/patroncatalog', async (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/html/patronCatalog.html'));
-});
+    try {
+        res.render('patroncatalog');
+      } catch (err) {
+        res.status(500).json(err);
+      }
+    });
 
 
 

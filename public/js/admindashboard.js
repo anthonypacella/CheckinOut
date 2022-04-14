@@ -18,7 +18,7 @@ const addAdministrator = async (event) => {
     });
 
     if (response.ok) {
-        document.location.replace('/')
+        document.location.replace('/admin/admincatalog')
     }
 }
 
@@ -42,7 +42,7 @@ const addPatron = async (event) => {
     });
 
     if (response.ok) {
-        document.location.replace('/')
+        document.location.replace('/admin/patroncatalog')
     }
 
 }
@@ -67,7 +67,7 @@ const addBook = async (event) => {
     });
 
     if (response.ok) {
-        document.location.replace('/')
+        document.location.replace('/admin/bookcatalog')
     }
 }
 

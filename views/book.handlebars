@@ -1,13 +1,21 @@
   {{#each books as |book|}}
-    <div class="item-card">
-      <h2><b>Title: </b>{{book.title}}</h2>
-      <p><b>Author: </b>{{book.author}}</p>
-      <p><b>ISBN: </b>{{book.isbn}}</p>
-      <p><b>Year of Publication:</b> {{book.year_published}}</p>
-      <p><b>Edition: </b>{{book.edition}}</p>
-      <p><b>Price: </b>${{book.price}}</p>
-      <p><b>Subject: </b>{{book.subject}}</p>
-      <p><b>Description: </b>{{book.description}}</p>
+    <div class="card my-3">
+      <div class="card-header">
+          <h2><b>Title: </b>{{book.title}}</h2>
+        </div>
+      <div class="card-body">
+        <div class="card-title">
+          <h5><b>Author: </b>{{book.author}}</h5>
+        </div>
+        <div class="card-text">
+          <p><b>ISBN: </b>{{book.isbn}}</p>
+          <p><b>Year of Publication:</b> {{book.year_published}}</p>
+          <p><b>Edition: </b>{{book.edition}}</p>
+          <p><b>Price: </b>${{book.price}}</p>
+          <p><b>Subject: </b>{{book.subject}}</p>
+          <p><b>Description: </b>{{book.description}}</p>
+        </div>
+      </div>      
     </div>
   {{/each}}
 

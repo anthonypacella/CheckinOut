@@ -3,7 +3,7 @@ const { Search } = require('../../models');
 
 router.get('/', (req, res) => {
   console.log('req', req);
-  res.render('search', { message: `success` });
+  res.render('search', { logged_in: req.session.logged_in });
 });
 
 // post a search

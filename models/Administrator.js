@@ -1,7 +1,8 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Administrator extends Model {}
+class Administrator extends Model {
+}
 
 Administrator.init(
   {
@@ -33,9 +34,10 @@ Administrator.init(
   },
   {
     sequelize,
+    timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'administrator'
+    modelName: 'administrator',
   }
 );
 

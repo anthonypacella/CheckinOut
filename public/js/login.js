@@ -15,7 +15,7 @@ const loginFormHandler = async (event) => {
 
     if (response.ok) {
       // If successful, redirect the browser to the profile page
-      document.location.replace('/api/search');
+      document.location.replace('/search');
     } else {
       alert(response.statusText);
     }

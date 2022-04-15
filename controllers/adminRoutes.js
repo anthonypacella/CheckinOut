@@ -2,6 +2,10 @@ const router = require('express').Router();
 const path = require('path');
 
 router.get('/login', async (req, res) => {
+    if (req.session.logged_in) {
+      res.render('admindashboard');
+      return;
+    }
     try {
         res.render('adminlogin');
       } catch (err) {

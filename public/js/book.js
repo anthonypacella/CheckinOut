@@ -25,4 +25,10 @@ const printBook = async () => {
   
 
 printBook();
+
+var backButtonEl = document.getElementById('Back');
+
+backButtonEl.addEventListener('click', function() {
+    document.location.replace('/search');
+});
   

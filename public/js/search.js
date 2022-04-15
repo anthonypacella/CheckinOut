@@ -19,7 +19,7 @@ const searchFormHandler = async (event) => {
   console.log(`subject`, subject);
   console.log(`author`, author);
 
-  const pathHead = ['/api/books'];
+  const pathHead = ['/books'];
   if (isbn || subject || author || title) {
     pathHead.push(`?`);
   }
@@ -61,7 +61,7 @@ const recommendationFormHandler = async (event) => {
     headers: { 'Content-Type': 'application/json' },
   });
 
-  const pathHead = ['/api/books/recommendations'];
+  const pathHead = ['/books/recommendations'];
   if (title) {
     pathHead.push(`?`);
   }

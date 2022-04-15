@@ -1,10 +1,17 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class Administrator extends Model {}
+class Administrator extends Model {
+}
 
 Administrator.init(
   {
+      id: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: true,
+      },
     email: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -27,9 +34,10 @@ Administrator.init(
   },
   {
     sequelize,
+    timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: 'administrator'
+    modelName: 'administrator',
   }
 );
 

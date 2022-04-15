@@ -1,6 +1,5 @@
 [{
-	"email": "admin1@gmail.com",
-	"name": "Admin Person 1",
-	"password": "admin1password"
-}
-]
+	"email": "admin@admin.com",
+	"name": "Admin Master",
+	"password": "AdminMaster12345"
+}]

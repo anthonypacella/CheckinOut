@@ -4,11 +4,16 @@ const sequelize = require('../config/connection');
 class Patron extends Model {}
 
 Patron.init(
-  {
-    user_name: {
+  {      
+    id: {
+    type: DataTypes.INTEGER,
+    allowNull: false,
+    primaryKey: true,
+    autoIncrement: true,
+    },
+    email: {
       type: DataTypes.STRING,
       allowNull: false,
-      primaryKey: true
     },
     first_name: {
       type: DataTypes.STRING,

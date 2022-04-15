@@ -7,60 +7,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Administrator Dashboard</title>
 </head>
-<nav>
-    <a href="./admincatalog">Admin Catalog</a>
-    <a href="./bookcatalog">Book Catalog</a>
-    <a href="./patroncatalog">Patron Catalog</a>
-</nav>
 <body>
+    <br>
     <div class="addAdmin">
-        <label for="add-admin">Name:</label>
-        <input class="form-input" type="text" id="adminName" />
-        <label for="add-admin">Email:</label>
-        <input class="form-input" type="text" id="adminEmail" />
-        <label for="add-admin">Password:</label>
-        <input class="form-input" type="text" id="adminPassword" />
+        <h4>Administrators</h4>
+        <label class="input-group-text" for="add-admin">Name:</label>
+        <input class="form-control" type="text" id="adminName" />
+        <label class="input-group-text" for="add-admin">Email:</label>
+        <input class="form-control" type="text" id="adminEmail" />
+        <label class="input-group-text" for="add-admin">Password:</label>
+        <input class="form-control" type="text" id="adminPassword" />
         <button class="btn btn-primary" type="submit" id = "addAdminbtn">Add Administrator</button>
+        <a class = "btn btn-success" href="./admincatalog">Admin Database</a>
+
     </div>
+    <br>
     <div class="addPatron">
-        <label for="add-patron">Username:</label>
-        <input class="form-input" type="text" id="patronUsername" />
-        <label for="add-patron">First Name</label>
-        <input class="form-input" type="text" id="patronFirstName" />
-        <label for="add-patron">Middle Initial:</label>
-        <input class="form-input" type="text" id="patronMiddleInitial" />
-        <label for="add-patron">Last Name:</label>
-        <input class="form-input" type="text" id="patronLastName" />
-        <label for="add-patron">Address Line 1:</label>
-        <input class="form-input" type="text" id="patronAddressLine1" />
-        <label for="add-patron">Address Line 2:</label>
-        <input class="form-input" type="text" id="patronAddressLine2" />
-        <label for="add-patron">City:</label>
-        <input class="form-input" type="text" id="patronCity" />
-        <label for="add-patron">State:</label>
-        <input class="form-input" type="text" id="patronState" />
-        <label for="add-patron">Zipcode:</label>
-        <input class="form-input" type="text" id="patronZip" />
+        <h4>Patrons</h4>
+        <label class="input-group-text" for="add-patron">Email:</label>
+        <input class="form-control" type="text" id="patronUsername" />
+        <label class="input-group-text" for="add-patron">First Name</label>
+        <input class="form-control" type="text" id="patronFirstName" />
+        <label class="input-group-text" for="add-patron">Middle Initial:</label>
+        <input class="form-control" type="text" id="patronMiddleInitial" />
+        <label class="input-group-text" for="add-patron">Last Name:</label>
+        <input class="form-control" type="text" id="patronLastName" />
+        <label class="input-group-text" for="add-patron">Address Line 1:</label>
+        <input class="form-control" type="text" id="patronAddressLine1" />
+        <label class="input-group-text" for="add-patron">Address Line 2:</label>
+        <input class="form-control" type="text" id="patronAddressLine2" />
+        <label class="input-group-text" for="add-patron">City:</label>
+        <input class="form-control" type="text" id="patronCity" />
+        <label class="input-group-text" for="add-patron">State:</label>
+        <input class="form-control" type="text" id="patronState" />
+        <label class="input-group-text" for="add-patron">Zipcode:</label>
+        <input class="form-control" type="text" id="patronZip" />
         <button class="btn btn-primary" type="submit" id = "addPatronbtn">Add Patron</button>
+        <a class = "btn btn-success" href="./patroncatalog">Patron Database</a>
     </div>
+    <br>
     <div class="addBook">
-        <label for="add-book">ISBN:</label>
-        <input class="form-input" type="text" id="bookISBN" />
-        <label for="add-book">Title:</label>
-        <input class="form-input" type="text" id="bookTitle" />
-        <label for="add-book">Author:</label>
-        <input class="form-input" type="text" id="bookAuthor" />
-        <label for="add-book">Year Published:</label>
-        <input class="form-input" type="text" id="bookYearPublished" />
-        <label for="add-book">Edition:</label>
-        <input class="form-input" type="text" id="bookEdition" />
-        <label for="add-book">Price:</label>
-        <input class="form-input" type="text" id="bookPrice" />
-        <label for="add-book">Subject:</label>
-        <input class="form-input" type="text" id="bookSubject" />
-        <label for="add-book">Description:</label>
-        <input class="form-input" type="text" id="bookDescription" />
+        <h4>Books</h4>
+        <label class="input-group-text" for="add-book">ISBN:</label>
+        <input class="form-control" type="text" id="bookISBN" />
+        <label class="input-group-text" for="add-book">Title:</label>
+        <input class="form-control" type="text" id="bookTitle" />
+        <label class="input-group-text" for="add-book">Author:</label>
+        <input class="form-control" type="text" id="bookAuthor" />
+        <label class="input-group-text" for="add-book">Year Published:</label>
+        <input class="form-control" type="text" id="bookYearPublished" />
+        <label class="input-group-text" for="add-book">Edition:</label>
+        <input class="form-control" type="text" id="bookEdition" />
+        <label class="input-group-text" for="add-book">Price:</label>
+        <input class="form-control" type="text" id="bookPrice" />
+        <label class="input-group-text" for="add-book">Subject:</label>
+        <input class="form-control" type="text" id="bookSubject" />
+        <label class="input-group-text" for="add-book">Description:</label>
+        <input class="form-control" type="text" id="bookDescription" />
         <button class="btn btn-primary" type="submit" id = "addBookbtn">Add Book</button>
+        <a class = "btn btn-success" href="./bookcatalog">Book Database</a>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="../js/admindashboard.js"></script>

@@ -14,7 +14,8 @@ const loginFormHandler = async (event) => {
     });
 
     if (response.ok) {
-      document.location.replace('/search');
+      // If successful, redirect the browser to the profile page
+      document.location.replace('/api/search');
     } else {
       alert(response.statusText);
     }
@@ -35,11 +36,11 @@ const signupFormHandler = async (event) => {
       headers: { 'Content-Type': 'application/json' },
     });
 
-    // if (response.ok) {
-    //   document.location.replace('/profile');
-    // } else {
-    //   alert(response.statusText);
-    // }
+    if (response.ok) {
+      document.location.replace('/api/search');
+    } else {
+      alert(response.statusText);
+    }
   }
 };
 

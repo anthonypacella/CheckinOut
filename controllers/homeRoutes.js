@@ -9,11 +9,20 @@ router.get('/', async (req, res) => {
     const books = bookData.map((book) => book.get({ plain: true }));
 
     // Pass serialized data and session flag into template
-    res.render('homepage', { 
-      books
-      , 
-      logged_in: req.session.logged_in 
-    });
+    if (req.session.logged_in===true) {
+      res.render('allbooks', { 
+        books
+        , 
+        logged_in: req.session.logged_in 
+      });    
+    } else {
+      res.render('homepage', { 
+        books
+        , 
+        logged_in: req.session.logged_in 
+      });
+    }
+    
   } catch (err) {
     res.status(500).json(err);
   }

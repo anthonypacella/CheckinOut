@@ -123,7 +123,7 @@
         "year_published": 1992,
         "edition": 15,
         "price": 9.9,
-        "subject": "Fantasy|Horror|Romance|Thriller",
+        "subject": "Fantasy",
         "description": "lectus suspendisse potenti in eleifend quam a odio in hac habitasse"
       }, {
         "isbn": "103507434-6",
@@ -357,7 +357,7 @@
         "year_published": 1990,
         "edition": null,
         "price": 17.47,
-        "subject": "Drama",
+        "subject": "Fantasy",
         "description": "amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit"
       }, {
         "isbn": "668277174-6",
@@ -402,7 +402,7 @@
         "year_published": 1996,
         "edition": 6,
         "price": 36.18,
-        "subject": "Children|Comedy|Fantasy",
+        "subject": "Fantasy",
         "description": "erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor"
       }, {
         "isbn": "197065036-2",

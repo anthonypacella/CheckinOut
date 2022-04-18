@@ -46,4 +46,4 @@ Admin Database View:![AdminDatabaseView](./assets/images/Mock6.png)
 * Deployed Page: https://checkinout-app.herokuapp.com/
 
 ## Contributors
-* Matthew Tanner, Sally Zhang, Sebastian Valderrama
+* Anthony Pacella, Matthew Tanner, Sally Zhang, Sebastian Valderrama

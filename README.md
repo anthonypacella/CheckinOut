@@ -15,8 +15,9 @@
             * Accurate Search: This search feature allows users to search EXACT paramters of the book they want to search, if they know the full title, full author name, ISBN, etc. of the item they are looking for.
             * Blurry Search: This search feature allows users to search GENERAL keywords to look for a book that they want. (I.E. "Harry" to return all Harry Potter books in the database)
     * Admin
-        * If the Admin route is clicked, the user will be promted to sign in as an admin.
+        * If the Admin route is clicked, the user will be promted to sign in as an admin. 
         * Once the admin logs in, they are presented with the "admin dashboard"
+            * Use "admin@admin.com" and "AdminMaster12345" to log in initially.
             * In the admin dashboard, an admin can do two things: Add entrys to the three databases (Administators, Patrons, Books) or view the current collection of entries in the database
 
 ## CSS Frameworks
@@ -42,4 +43,7 @@ Admin Database View:![AdminDatabaseView](./assets/images/Mock6.png)
 
 ## Links
 * GitHub Repository: https://github.com/anthonypacella/CheckinOut
-* Deployed Page: 
+* Deployed Page: https://checkinout-app.herokuapp.com/
+
+## Contributors
+* Matthew Tanner, Sally Zhang, Sebastian Valderrama
